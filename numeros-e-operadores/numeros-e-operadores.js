@@ -18,3 +18,19 @@ var teste = NaN;
 true && true; // true
 
 true || true; // true
+
+var numero = 20;
+
+numero += 20;
+console.log(numero);
+numero /= 20;
+numero -= 20;
+numero *= 20;
+
+var idade = 18;
+var naoPossuiDiabetes = true;
+
+var podeBeber =
+  idade >= 18 && naoPossuiDiabetes ? "Pode beber" : "Não pode beber";
+
+console.log(podeBeber);
